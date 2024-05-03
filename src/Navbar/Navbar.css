@@ -1,0 +1,19 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(248, 247, 245);
+    padding: 8px;
+
+}
+
+.spec{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+
+body
+{
+    margin: 10px;
+}

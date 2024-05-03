@@ -1,0 +1,47 @@
+.man{
+  
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 100vh;
+    align-items: center;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.man img{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+@media (min-width:1000px)
+{
+    .man img{
+        width: 120%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .man{
+        gap: 100px;
+    }
+}
+
+.ing button{
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 20px;
+
+}
+
+.ing button:hover{
+    background-color: red;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 20px;
+    
+}

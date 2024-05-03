@@ -1,0 +1,101 @@
+.inpdiv{
+    margin: 10px;
+
+    width: 50%;
+   
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+}
+.inp{
+    border: 1px solid black;
+    width: 80%;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.inp:hover::placeholder {
+    color: blue; /* Set the color of the placeholder text when hovering */
+}
+
+.inpdiv button{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+.inpdiv button:hover{
+    
+    color: blue;
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+@media (max-width:800px) {
+    .inpdiv{
+        width: 100%;
+        margin: 2px;
+    }
+}
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card img {
+    width: 200px;
+    height: 200px;
+}
+
+h4 {
+    color: rgb(2, 106, 77);
+    font-weight: bold;
+}
+
+
+
+.btn {
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    /* Add other button styles as needed */
+}
+
+.card-container{
+    margin: auto;
+    border: 15px solid white;
+}
+
+@media (min-width:1000px) {
+    .card-container{
+        margin: auto;
+        border: 20px solid white;
+    }
+    .card img {
+        width: 300px;
+        height: 300px;
+    }
+    
+}

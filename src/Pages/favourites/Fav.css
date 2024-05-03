@@ -1,0 +1,22 @@
+.fav{
+    display: flex;
+    justify-content: center;
+   
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+}
+
+.favcard img{
+    width: 150px;
+    height: 150px;
+}
+
+.favcard{
+    border: 20px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
